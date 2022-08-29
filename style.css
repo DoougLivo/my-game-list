@@ -1,0 +1,21 @@
+h1 {
+  text-align: center;
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+  margin:0;
+}
+ul {
+  border-right: 1px solid gray;
+  width: 190px;
+  margin:0;
+  padding-top: 16px;
+}
+#grid {
+  display:grid;
+  grid-template-columns: 260px 1fr;
+}
+@midia(max-width:630px) {
+  #grid {
+    display:block;
+  }
+}
